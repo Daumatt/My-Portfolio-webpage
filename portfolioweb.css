@@ -1,0 +1,434 @@
+*{
+    /* margin: 0; */
+    /* padding: 0%; */
+}
+body{
+    /* background-color: black; */
+    width: 100%;
+}
+
+
+.mart{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    margin-bottom: 0px;
+    height: 100vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    margin: 0;
+    }
+.first-box{
+    list-style:none ;
+    display: flex;
+    justify-content: center; 
+     
+    }
+ 
+.first-box li a{
+    margin-top: 10rem;
+    margin-right:30px;
+    color:wheat;
+    justify-content: center;
+    margin-top: 50px;
+    }
+li a:hover{
+    color: green;
+}
+.head{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 30px;
+    font-size: 90px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   }
+span{
+    color:white;
+    }
+    .firsthr{
+        color: yellow;
+        width: 20%;
+        opacity: 15%;
+    }
+.fa{
+    padding: 10px;
+    font-size: 10px;
+    text-align: center;
+    width: 10px;
+    text-decoration: none;
+}
+.fa-facebook{
+    /* background:white; */
+    color: white;
+    }
+.fa-facebook:hover{
+        background-color:grey; 
+    }
+.fa-twitter{
+    background: black;
+    color: white;
+    }
+    .fa-twitter:hover{
+        background-color: grey;
+    }
+
+.fa-instagram{
+    /* background: orangered; */
+    color: white;
+}
+.fa-instagram:hover{
+    background-color:grey;
+}
+.fa-linkedin{
+    /* background:rgba(46, 103, 224, 0.734); */
+    color: white;
+}
+.fa-linkedin:hover{
+    background-color:grey;
+}
+.smicons{
+    /* margin-top: 1.3rem; */
+    /* padding: 5px; */
+    text-align: center;
+    margin-bottom: 10px;
+    
+}
+a{
+    margin: 50px;
+    border-radius: 5rem;
+    color: white;
+    }
+.mart p{
+    margin-top: 100px;
+    text-align: center;
+    width: 50rem;
+    margin-left: 25rem;
+    font-size: x-large;
+    color: bisque;
+    margin-bottom: 100px;
+    }
+.about-page{
+    margin-top: 0;
+
+    }
+.second-page{
+    background-color: rgba(0, 0, 0, 0.695);
+    color: wheat;
+    display: flex;
+    margin-top: 0px;
+   }
+.sec-para{
+    /* justify-content: center; */
+    width: 40rem;
+    font-size: larger;
+    line-height: 30px;
+}
+.add{
+    font-size: larger;
+}
+.first-head{
+    font-size: xx-large;
+}
+.second-head{
+    font-size: xx-large;
+}
+.about{
+    margin-left: 11rem;
+    margin-top: 10rem;
+    text-align: justify;
+}
+.image img{
+    margin-top: 200px;
+    margin-left: 150px;
+    border-radius: 70%;
+    /* object-fit: cover; */
+}
+.con-det{
+    display: flex;
+}
+.downloads{
+    border: 1px solid rgba(2, 50, 0, 0.4);
+    margin-left: 10rem;
+    width: 14rem;
+    padding: 10px;
+    background-color:black;
+    border-radius: 7px;
+    height: 1.4rem;
+    margin-top: 50px;
+
+    }
+.downloads:hover{
+    background-color: brown;
+    }
+.third-page{
+    background-color: rgba(255, 255, 255, 0.652);
+}
+.resume1{
+    display: flex;
+    padding-top: 10rem;
+}
+.resume2{
+    display: flex;
+}
+.resume3{
+    display: flex;
+}
+.topic1{
+    font-size: larger;
+    margin-left: 10rem ;
+    margin-right: 10rem;
+    margin-top: 1rem;
+    font-style: bold;
+}
+.first-exp{
+    font-size: x-large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    justify-content: center;
+    font-style: bold;
+}
+.gte{
+    font-size: large;
+    color: black;
+    font-style: italic;
+}
+.apr{
+    color: grey;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.experienceedu{
+    margin-left: -30px;
+}
+.experience, .experienceedu p{
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    justify-content: center;
+    text-align: justify;
+    width: 70%;
+}
+.chart{
+    width: 600px;
+    height: 40px;
+    background-color: black;
+}
+.html{
+    width: 460px;
+    height: 40px;
+    background-color: wheat
+}
+.css{
+    width: 360px;
+    height: 40px;
+    background-color:wheat;
+}
+.javascript{
+    width: 169px;
+    height: 40px;
+    background-color:wheat;
+}
+.reactjs{
+    width: 500px;
+    height: 40px;
+    background-color:wheat;
+}
+.material ui{
+    width: 300px;
+    height: 40px;
+    background-color:wheat;
+}
+.python{
+    width: 170px;
+    height: 40px;
+    background-color:wheat;
+}
+.ibm{
+    width: 420px;
+    height: 40px;
+    background-color:wheat;
+}
+.fourth-page{
+    background-color: rgba(245, 222, 179, 0.454);
+}
+.few{
+    margin-left: 5rem;
+    padding: 7rem;
+    font-size: xx-large;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+.works-pic{
+    display: flex;
+    justify-content: center;
+
+}
+.te{
+    margin-left:35rem;
+    font-size: xx-large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.techie p{
+    font-size: larger;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: justify;
+    width: 42%;
+    justify-content: center;
+    margin-left: 30rem;
+}
+.ki{
+    font-size: 20px;
+    color:rgba(0, 255, 255, 0.65);
+}
+.bnt {
+    border: 1px solid gray;
+    padding:1.5rem;
+    background-color: aqua;
+    width: 22%;
+    border-radius: .5rem;
+    justify-content: center;
+    margin-left: 40rem;
+    font-size: larger;
+    margin-bottom: 40px;
+}
+.bnt:hover{
+    background-color: darkgray;
+}
+.ki :hover{
+    background-color: dimgrey;
+}
+.picwrite{
+    display: flex;
+    margin-left: 2rem;
+    /* margin-bottom: 10rem; */
+    /* flex-wrap: wrap; */
+}
+.my-works{
+    padding: 6rem;
+    margin-left: 25rem;
+    font-size: xx-large;
+    justify-content: center;
+    color: white;
+}
+.fifth-page{
+    margin-top:-30px;
+    background-color: rgba(0, 0, 0, 0.927);
+    flex-wrap: wrap;
+}
+.idsp{
+    display: flex;
+    margin-left: 2rem;
+}
+.jo{
+    margin-left: 2rem;
+}
+.john{
+    font-size: x-large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.ceo{
+    color: gray;
+}
+.wh p{
+    color: rgba(255, 255, 255, 0.479);
+    font-size: 16px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    justify-content: center;
+    width: 70%;
+    margin-bottom: 4rem;
+    padding-bottom: 100px;
+}
+.idsp img{
+    border-radius: 50%;
+}
+.fst-dsp{
+    margin-left: 2rem;
+}
+.sixth-page {
+    background-color: rgba(0, 0, 0, 0.962);
+}
+.project-det {
+    display: flex;
+}
+.colla p{
+    width: 450px;
+    margin-left: 300px;
+    color: rgba(245, 245, 245, 0.855);
+    font-size: x-large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+}
+.mail {
+    margin-left: 250px;
+    font-size: larger;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.mail a{
+    color: white;
+    margin-left: -2px;
+}
+.sayhey {
+    margin-top:auto;
+    padding-top: 150px;
+    margin-left: 300px;
+    padding-bottom: 10px;
+    color: whitesmoke;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.bntt {
+    border: 1px solid grey;
+    padding: 1rem;
+    background-color: rgb(22, 194, 225);
+    width: 20%;
+    margin-left: 62rem;
+    margin-bottom: 200px;
+    border-radius: 0.5rem;
+    font-size: large;
+    color: rgba(255, 255, 255, 0.808);
+    justify-content: center;
+
+}
+.em {
+    color: gray;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.ph{
+    color: grey;
+}
+.cp {
+    color: gray;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+footer{
+    padding-top: 10px;
+    margin-left: 300px;
+}
+.bntt:hover{
+    background-color: gray;
+}
+.lo{
+    width: 60rem;
+    opacity: 5%;
+}
+.gme{
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.num{
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.sticky{
+    position: fixed;
+    text-align: center;
+    background-color: black;
+    margin-left: 23rem;
+    margin-top: -22px;
+
+}
+.smy{
+    color: rgba(255, 255, 255, 0.784);
+}
+
+nav{
+    width: auto;   
+    background-color: black;
+
+}
